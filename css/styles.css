@@ -1,0 +1,53 @@
+html {
+  background-color: #0490D0;
+}
+
+body{
+  width: 100%;
+  margin: 0;
+  background-image: url("../images/the-city.png");
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position-y: 93%;
+  background-position-x: 50%;
+}
+
+h1{
+  margin: 0;
+  font-weight: 500;
+}
+
+header {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  background-color: #aac317;
+  margin-top: 0;
+  line-height: 110px;
+  height: 120px;
+}
+
+.row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8, .row9, .row10, .row11, .row12 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+img {
+  max-height: 500px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+footer{
+  text-align: center;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  background-color: #aac317;
+  margin-top: 180px;
+  padding-top: 40px;
+  height: 100px;
+}
