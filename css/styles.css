@@ -1,53 +1,166 @@
-html {
-  background-color: #0490D0;
+ /* iphone 6, 7, 8 */
+@media (min-width:320px)  { 
+  
+  html {
+    background-color: #0490D0;
+  }
+
+  body{
+    width: 100%;
+    margin: 0;
+    background-image: url("../images/the-city.png");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position-y: 97.5%;
+    background-position-x: 50%;
+  }
+  
+  h1{
+    margin: 0;
+    font-weight: 500;
+  }
+
+  header {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #aac317;
+    margin-top: 0;
+    line-height: 100px;
+    height: 105px;
+  }
+
+  .row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8, .row9, .row10, .row11, .row12 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+
+  img {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 35%;
+  }
+
+  footer{
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    background-color: #aac317;
+    margin-top: 100px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    height: 25px;
+  }
+
+  .corp-background {
+    background-position-y: 98.9%;
+    background-position-x: 50%;
+  }
+
+  .private-background {
+    background-position-y: 97.5%;
+    background-position-x: 50%;
+  }
+
+  .school-background {
+    background-position-y: 98.3%;
+    background-position-x: 50%;
+  }
+
+  .wedding-background {
+    background-position-y: 99.26%;
+    background-position-x: 50%;
+  }
 }
 
-body{
-  width: 100%;
-  margin: 0;
-  background-image: url("../images/the-city.png");
-  background-repeat: no-repeat;
-  background-size: 800px;
-  background-position-y: 93%;
-  background-position-x: 50%;
+
+/*tablets */
+@media (min-width:760px)  {
+
+  header {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  body{
+    background-size: 500px;
+    background-position-y: 98.5%;
+  }
+
+  footer{
+    font-size: 15px;
+    height: 35px;
+  }
+
+  .corp-background {
+    background-position-y: 99.4%;
+  }
+
+  .private-background {
+    background-position-y: 98.5%;
+  }
+
+  .school-background {
+    background-position-y: 99%;
+  }
+
+  .wedding-background {
+    background-position-y: 99.56%;
+  }
 }
 
-h1{
-  margin: 0;
-  font-weight: 500;
-}
 
-header {
-  text-align: center;
-  color: white;
-  font-size: 25px;
-  font-family: 'Raleway', sans-serif;
-  background-color: #aac317;
-  margin-top: 0;
-  line-height: 110px;
-  height: 120px;
-}
+/* computer */
+@media (min-width:1025px) {
 
-.row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8, .row9, .row10, .row11, .row12 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 40px;
-}
+  body{
+    background-size: 800px;
+    background-position-y: 92%;
+  }
 
-img {
-  max-height: 500px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
+  header {
+    font-size: 25px;
+    line-height: 110px;
+    height: 120px;
+  }
 
-footer{
-  text-align: center;
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-  background-color: #aac317;
-  margin-top: 180px;
-  padding-top: 40px;
-  height: 100px;
+  .row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8, .row9, .row10, .row11, .row12 {
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  img {
+    max-height: 900px;
+    max-width: 175px;
+  }
+
+  footer{
+    font-size: 20px;
+    background-color: #aac317;
+    margin-top: 180px;
+    padding-top: 40px;
+    height: 100px;
+  }
+
+  .corp-background {
+    background-position-y: 96.3%;
+  }
+
+  .private-background {
+    background-position-y: 92.5%;
+  }
+
+  .school-background {
+    background-position-y: 95%;
+  }
+
+  .wedding-background {
+    background-position-y: 97.7%;
+  }
 }

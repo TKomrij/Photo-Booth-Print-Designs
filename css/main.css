@@ -1,66 +1,155 @@
-body {
-  background-color: #0490D0;
-  margin: 0;
-  background-image: url("../images/the-city.png");
-  background-repeat: no-repeat;
-  background-size: 800px;
-  background-position-y: 93%;
-  background-position-x: 50%;
+/* iphone 6, 7, 8 */
+@media (min-width:320px)  { 
+
+  body {
+    background-color: #0490D0;
+    margin: 0;
+    background-image: url("../images/the-city.png");
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position-y: 96%;
+    background-position-x: 50%;
+  }
+
+  header {
+    background-color: #aac317;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  h2 {
+    text-align: center;
+    font-weight: 500;
+    padding-top: 15px;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 20px;
+  }
+
+  h3 {
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+  }
+
+  .center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .box1, .box2, .box3, .box4, .box5 {
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 2px solid white;
+    height: 300px;
+    width: 197px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .logo {
+    max-height: 100px;
+  }
+
+  footer{
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    background-color: #aac317;
+    padding-top: 25px;
+    line-height: 10px;
+    height: 70px;
+    margin-top: 70px;
+  }
 }
 
-header {
-  background-color: #aac317;
-  height: 175px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+/*tablets */
+@media (min-width:760px)  {
+
+  body {
+    background-position-y: 91.5%;
+  }
 }
 
-h2 {
-  text-align: center;
-  font-weight: 500;
-  padding-top: 15px;
-  margin: 0;
-  font-family: 'Raleway', sans-serif;
-  color: white;
-  font-size: 30px;
-}
- 
-h3 {
-  margin-top: 180px;
-  font-family: 'Raleway', sans-serif;
-  color: white;
-  text-align: center;
-}
+/* computer */
+@media (min-width:1025px) {
 
-.center {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
+  body {
+    background-color: #0490D0;
+    margin: 0;
+    background-image: url("../images/the-city.png");
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position-y: 93%;
+    background-position-x: 50%;
+  }
 
-.box1, .box2, .box3, .box4, .box5 {
-  margin-right: 10px;
-  margin-left: 10px;
-  border: 2px solid white;
-  height: 310px;
-  width: 197px;
-  margin-bottom: 220px;
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-}
+  header {
+    background-color: #aac317;
+    height: 175px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 
-img {
-  max-height: 310px;
-}
+  h2 {
+    text-align: center;
+    font-weight: 500;
+    padding-top: 15px;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 30px;
+  }
+  
+  h3 {
+    margin-top: 180px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+  }
 
-footer{
-  text-align: center;
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-  background-color: #aac317;
-  padding-top: 20px;
-  line-height: 10px;
-  height: 100px;
+  .center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .box1, .box2, .box3, .box4, .box5 {
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 2px solid white;
+    height: 310px;
+    width: 197px;
+    margin-bottom: 220px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .logo {
+    max-height: 160px;
+  }
+
+  footer{
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    background-color: #aac317;
+    padding-top: 20px;
+    line-height: 10px;
+    height: 100px;
+  }
+
+  .back-position {
+    background-position-y: 89%;
+  }
 }
