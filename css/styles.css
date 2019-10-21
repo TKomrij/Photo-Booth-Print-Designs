@@ -21,14 +21,25 @@
   }
 
   header {
-    text-align: center;
-    color: white;
-    font-size: 15px;
-    font-family: 'Raleway', sans-serif;
     background-color: #aac317;
-    margin-top: 0;
-    line-height: 100px;
-    height: 105px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .logo {
+    max-height: 100px;
+  }
+
+  h2 {
+    text-align: center;
+    font-weight: 500;
+    padding-top: 15px;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 20px;
   }
 
   .row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8, .row9, .row10, .row11, .row12 {
@@ -39,7 +50,7 @@
     margin-top: 40px;
   }
 
-  img {
+  .strip {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 10px;
@@ -64,7 +75,7 @@
   }
 
   .private-background {
-    background-position-y: 97.5%;
+    background-position-y: 97.6%;
     background-position-x: 50%;
   }
 
@@ -77,20 +88,33 @@
     background-position-y: 99.26%;
     background-position-x: 50%;
   }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .page {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 15px 10px 0px 10px;
+    border: 1px solid #aac317;
+    width: 100px;
+    background-color: #aac317;
+    border-radius: 5px;
+  }
+
 }
 
 
 /*tablets */
 @media (min-width:760px)  {
 
-  header {
-    font-size: 25px;
-    font-family: 'Raleway', sans-serif;
-  }
-
   body{
     background-size: 500px;
-    background-position-y: 98.5%;
+    background-position-y: 98.6%;
   }
 
   footer{
@@ -103,7 +127,7 @@
   }
 
   .private-background {
-    background-position-y: 98.5%;
+    background-position-y: 98.7%;
   }
 
   .school-background {
@@ -111,7 +135,16 @@
   }
 
   .wedding-background {
-    background-position-y: 99.56%;
+    background-position-y: 99.6%;
+  }
+
+  .page {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px 13px 50px 13px;
+    width: 125px;
   }
 }
 
@@ -121,13 +154,29 @@
 
   body{
     background-size: 800px;
-    background-position-y: 92%;
+    background-position-y: 93%;
   }
 
   header {
-    font-size: 25px;
-    line-height: 110px;
-    height: 120px;
+    background-color: #aac317;
+    height: 175px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  h2 {
+    text-align: center;
+    font-weight: 500;
+    padding-top: 15px;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 30px;
+  }
+
+  .logo {
+    max-height: 160px;
   }
 
   .row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8, .row9, .row10, .row11, .row12 {
@@ -135,7 +184,7 @@
     justify-content: center;
   }
 
-  img {
+  .strip {
     max-height: 900px;
     max-width: 175px;
   }
@@ -149,18 +198,30 @@
   }
 
   .corp-background {
-    background-position-y: 96.3%;
+    background-position-y: 96.6%;
   }
 
   .private-background {
-    background-position-y: 92.5%;
+    background-position-y: 93%;
   }
 
   .school-background {
-    background-position-y: 95%;
+    background-position-y: 95.5%;
   }
 
   .wedding-background {
     background-position-y: 97.7%;
+  }
+
+  .page {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin: 30px 50px 30px 50px;
+    border: 1px solid #aac317;
+    width: 125px;
+    background-color: #aac317;
+    border-radius: 5px;
   }
 }
